@@ -1,0 +1,20 @@
+
+/* navbar */
+nav {
+  background-color: green;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Hero-Section */
+#Hero-Section {
+  height: 100vh;/* 100% de viewport */
+  background-image: url("../img/carousel1.jpg");
+  background-position: center;
+  background-size:cover;/* proporcional */
+  background-repeat: no-repeat;
+  position: relative;
+}
