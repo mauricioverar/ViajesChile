@@ -26,7 +26,7 @@
     <header id="Hero-Section"><!-- encabezado y cuerpo principal (foto) -->
       <!-- barra de navegación -->
       <nav class="navbar navbar-expand-lg navbar-dark"><!-- para indicar el tamaño (lg grande) a partir del cual la barra se mostrará de forma expandida -->
-          <div class="container-fluid mx-5"><!-- de esta forma las filas se alinean bien y muestran el padding correcto (anchura variable) -->
+          <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="assets/img/viajes.svg" alt="viajes" width="30" height="44" class="d-inline-block align-text-top">
               Viajes Chile</a>
@@ -56,9 +56,47 @@
               </ul>
             </div>
           </div>
+
+
       </nav>
 
     </header>
+
+    <section class="presentacion d-none d-sm-block container-fluid" id="Q-somos"><!-- desaparecer en celular d-none d-sm-block -->
+      <div class="text-center text-white pt-4">¿Quiénes somos?
+        <hr><!-- barra divisoria -->
+      </div>
+
+      <div class="row mx-3">
+
+            <div class="col-4">
+              <nav class="nav justify-content-center" style="background-color: #17a2b8; color:#fff;">
+                <div class="position-relative">
+                    <i class="fas fa-plane"></i>
+                </div>
+              </nav>
+            </div>
+
+            <div class="col-4">
+              <nav class="nav justify-content-center" style="background-color: #17a2b8; color:#fff;">
+                <div class="position-relative">
+                  <i class="fas fa-mountain"></i>
+                </div>
+              </nav>
+            </div>
+
+            <div class="col-4">
+              <nav class="nav justify-content-center" style="background-color: #17a2b8; color:#fff;">
+                <div class="position-relative">
+                  <i class="fas fa-route"></i>
+                </div>
+              </nav>
+            </div>
+
+      </div>
+    </section>
+
+
 
     <footer>
       <nav class="nav justify-content-center" style="background-color: #17a2b8; color:#fff;">
@@ -69,9 +107,6 @@
           <i class="fab fa-twitter-square"></i>
           <i class="fab fa-facebook-square"></i>
           <!--
-          <i class="fas fa-plane"></i>
-          <i class="fas fa-mountain"></i>
-          <i class="fas fa-route"></i>
         -->
         </a>
       </nav>

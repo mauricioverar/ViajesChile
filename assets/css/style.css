@@ -14,3 +14,17 @@
   background-repeat: no-repeat;
   position: relative;
 }
+
+.presentacion {
+  background-color: black;
+}
+
+/* Quienes-somos*/
+#Q-somos {
+  height: 100vh;/* 100% de viewport */
+}
+
+#Q-somos hr {
+  height: 3px;
+  color: #17a2b8;
+}
