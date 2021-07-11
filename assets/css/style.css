@@ -1,30 +1,25 @@
 
+/* font-family: 'Source Sans Pro', sans-serif; */
+
 /* navbar */
 .navbar-brand {
   font-size: 24px;
   color: white;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
 }
 
-/* Hero-Section */
-/*
-#Hero-Section {
-  height: 100vh;
-  background-image: url("../img/carousel1.jpg");
-  background-position: center;
-  background-size:cover;
-  background-repeat: no-repeat;
-  position: relative;
-}
-*/
+/* presentacion */
 .presentacion {
   background-color: black;
 }
 
-/* Quienes-somos*/
+/* Quienes-somos */
 #Q-somos {
   height: 100vh;/* 100% de viewport */
 }
 
+/* barra divisoria */
 #Q-somos hr {
   height: 3px;
   color: #17a2b8;
