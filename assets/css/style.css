@@ -1,16 +1,26 @@
 
+/* font-family: 'Source Sans Pro', sans-serif; */
+
 /* navbar */
 .navbar-brand {
   font-size: 24px;
   color: white;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
 }
 
-/* Hero-Section */
-#Hero-Section {
+/* presentacion */
+.presentacion {
+  background-color: black;
+}
+
+/* Quienes-somos */
+#Q-somos {
   height: 100vh;/* 100% de viewport */
-  background-image: url("../img/carousel1.jpg");
-  background-position: center;
-  background-size:cover;/* proporcional */
-  background-repeat: no-repeat;
-  position: relative;
+}
+
+/* barra divisoria */
+#Q-somos hr {
+  height: 3px;
+  color: #17a2b8;
 }
