@@ -25,9 +25,10 @@
     <!-- encabezado y cuerpo principal (foto) -->
     <header id="Hero-Section">
       <!-- barra de navegación -->
-      <nav class="navbar navbar-expand-lg navbar-dark"><!-- para indicar el tamaño (lg grande) a partir del cual la barra se mostrará de forma expandida -->
-          <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark"><!-- para indicar el tamaño (lg grande) a partir del cual la barra se mostrará de forma expandida -->
+          <div class="container-fluid mx-4">
             <a class="navbar-brand" href="#">
+
               <img src="assets/img/viajes.svg" alt="viajes" width="30" height="44" class="d-inline-block align-text-top">
               Viajes Chile</a>
             <button class="navbar-toggler"
@@ -45,25 +46,46 @@
                   <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Quienes Somos</a>
+                  <a class="nav-link" href="#Q-somos">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Destacados</a>
+                  <a class="nav-link" href="#Destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link" href="#Contacto">Contacto</a>
                 </li>
               </ul>
             </div>
           </div>
       </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </header>
     <!-- Quiénes somos -->
-    <section class="presentacion d-none d-sm-block container-fluid" id="Q-somos"><!-- desaparecer en celular d-none d-sm-block -->
-      <div class="text-center text-white pt-4">¿Quiénes somos?
+    <section class="presentacion d-none d-sm-block container-fluid pb-5" id="Q-somos"><!-- desaparecer en celular d-none d-sm-block -->
+      <div class="text-center text-white pt-5">¿Quiénes somos?
         <hr><!-- barra divisoria -->
       </div>
-      <div class="row mx-3">
+      <div class="row mx-3 pb-5">
             <div class="col-4">
               <nav class="nav justify-content-center" style="background-color: #17a2b8; color:#fff;">
                 <div class="position-relative">
@@ -92,14 +114,14 @@
     </section>
     <!-- Destacados -->
     <section class="presentacion container-fluid" id="Destacados">
-      <div class="text-center text-white pt-4">Destacados
+      <div class="text-center text-white pt-5">Destacados
         <hr><!-- barra divisoria -->
       </div>
 
       <div class="row mx-3">
 
             <div class="col-sm-3">
-              <div class="card">
+              <div class="card mb-3">
                 <img src="assets\img\card1.jpg" class="card-img-top" alt="card1">
                 <div class="card-body" style="background-color: #17a2b8; color:#fff;">
                   <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -109,18 +131,18 @@
             </div>
 
             <div class="col-sm-3">
-              <div class="card">
-                <img src="assets\img\card1.jpg" class="card-img-top" alt="card1">
+              <div class="card mb-3">
+                <img src="assets\img\card2.jpg" class="card-img-top" alt="card2">
                 <div class="card-body" style="background-color: #17a2b8; color:#fff;">
                   <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                 </div>
               </div>
             </div>
 
             <div class="col-sm-3">
-              <div class="card">
-                <img src="assets\img\card1.jpg" class="card-img-top" alt="card1">
+              <div class="card mb-3">
+                <img src="assets\img\card3.jpg" class="card-img-top" alt="card3">
                 <div class="card-body" style="background-color: #17a2b8; color:#fff;">
                   <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -128,7 +150,7 @@
               </div>
             </div>
             <div class="col-sm-3">
-              <div class="card">
+              <div class="card mb-3">
                 <img src="assets\img\card1.jpg" class="card-img-top" alt="card1">
                 <div class="card-body" style="background-color: #17a2b8; color:#fff;">
                   <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -141,14 +163,14 @@
 
 
 <!-- Contacto -->
-      <section class="presentacion container-fluid">
-        <div class="text-center text-white pt-4">Contacto
+      <section class="presentacion container-fluid"  id="Contacto">
+        <div class="text-center text-white pt-5 mt-5">Contacto
           <hr><!-- barra divisoria -->
         </div>
         <div class="card text-center container-fluid me-2">
           <div class="card-body">
             <p class="text-center pt-5">Hola, gracias por contactarnos</p>
-            <a href="#" class="btn btn-primary mb-5"><b>Comenzar</b></a>pulsa <b>Enter</b> ↲
+            <a href="#" class="btn btn-primary mb-4"><b>Comenzar</b></a>pulsa <b>Enter</b> ↲
           </div>
         </div>
       </section>

@@ -6,15 +6,16 @@
 }
 
 /* Hero-Section */
+/*
 #Hero-Section {
-  height: 100vh;/* 100% de viewport */
+  height: 100vh;
   background-image: url("../img/carousel1.jpg");
   background-position: center;
-  background-size:cover;/* proporcional */
+  background-size:cover;
   background-repeat: no-repeat;
   position: relative;
 }
-
+*/
 .presentacion {
   background-color: black;
 }
